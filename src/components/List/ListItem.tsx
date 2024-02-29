@@ -1,10 +1,18 @@
 import Button from "../UI/Button";
+import { useDispatch } from "react-redux";
+import { removeList, ListType } from "../../store/slices/listSlice";
 
-const ListItem = ({ listItem }: { listItem: string }) => {
+const ListItem = ({ list }: { list: ListType }) => {
+  const dispatch = useDispatch();
+
+  const handleRemoveList = (targetId: string) => {
+    dispatch(removeList(targetId));
+  }
+
   return (
     <li>
-      {listItem}
-      <Button handleClick={() => {}} text="Delete" />
+      {list.text}
+      <Button handleClick={() => handleRemoveList(list.id)} text="Delete" />
     </li>
   )
 }
