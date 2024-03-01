@@ -7,14 +7,14 @@ const ListItem = ({ list }: { list: ListType }) => {
 
   const handleRemoveList = (targetId: string) => {
     dispatch(removeList(targetId));
-  }
+  };
 
   return (
-    <li>
-      {list.text}
+    <li className="flex justify-between items-center my-2">
+      <span>{list.text}</span>
       <Button handleClick={() => handleRemoveList(list.id)} text="Delete" />
     </li>
-  )
-}
+  );
+};
 
-export default ListItem
+export default ListItem;
