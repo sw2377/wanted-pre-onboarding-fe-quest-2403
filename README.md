@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# wanted-pre-onboarding-frontend-challenge-19
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://github.com/sw2377/wanted-pre-onboarding-fe-quest-2403/assets/85465266/0e95c1d9-c936-410f-a70c-3f1d9d4a4bc2" width="600">
 
-Currently, two official plugins are available:
+## Todo List 만들기
+2024년 3월 원티드 프리온보딩 FE 챌린지의 사전과제로 진행한 Todo List 입니다. <br />
+React + Typescript로 작성되었으며, 스타일은 TailwindCSS, 전역 상태 관리는 Redux Toolkit을 사용하였습니다. <br />
+redux-persist를 사용하여 로컬 스토리지에 데이터를 저장하는 것을 구현하였습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+🔗 과제 안내페이지 (요구사항 및 공통 세팅 ) <br />
+https://github.com/summerdidi/wanted-pre-onboarding-frontend-challenge-19/tree/main
