@@ -32,4 +32,4 @@ export const listSlice = createSlice({
 
 export const { addList, removeList } = listSlice.actions;
 
-export default listSlice.reducer;
+export default listSlice;
